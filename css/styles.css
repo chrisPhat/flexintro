@@ -1,0 +1,29 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    flex-direction: column;
+}
+
+.innerContainer{
+    background-color:chocolate;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.items{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+}
